@@ -1,0 +1,14 @@
+.outer-noResult{
+    display: flex;
+    margin: 10px auto;
+    gap: 10px;
+    position: relative;
+    left: -208px;
+}
+.NoResultText{
+    display: flex;
+    gap: 4px;
+    position: relative;
+    font-weight: 500;
+    color: rgb(53, 53, 53);
+}

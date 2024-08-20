@@ -1,0 +1,194 @@
+.side-outer
+{
+    position: sticky;
+}
+.side-cont{
+    position: relative;
+    background-color: white;
+    width: 310px;
+    margin-left: 0px;
+}
+.side-search{
+    margin-bottom: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    height: 90px;
+    padding: 14px;
+    border-radius: 3px;
+    font-size: 13px;
+    color: rgb(77, 76, 76);
+    background-color: white;
+}
+.side-search-btn{
+    width:65px;
+    height: 31px;
+    padding: 5px ;
+    border-radius: 5px;
+    color: white;
+    background-color: orange;
+    cursor: pointer;
+    box-shadow: none;
+    border-style: none;
+    position: absolute;
+    right: 42px;
+    top:42px;
+}
+.side-search-head{
+    color: orange;
+    font-size: 16px;
+    font-weight: 400;
+    word-spacing: 0px;
+    margin-bottom: 15px;
+}
+.side-searchbox{
+    margin-top: 2px;
+    position: absolute;
+    left: 12px;
+    top:40px;
+    width: 180px;
+    height: 31px;
+    border: 1px solid rgb(185, 185, 185);
+    border-radius: 5px;
+    padding: 2px 4px 2px 12px;
+    outline: 0;
+    background-color: white;
+    color: black;
+    font-weight: 500;
+    font-size:10px ;
+}
+
+.side-subscribe{
+    margin-bottom: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    height: 190px;
+    padding: 14px;
+    border-radius: 3px;
+    font-size: 13px;
+    color: rgb(77, 76, 76);
+    background-color: white;
+}
+
+
+.side-subscribe-btn{
+    width:90%;
+    height: 31px;
+    padding: 5px ;
+    border-radius: 5px;
+    color: white;
+    background-color: orange;
+    cursor: pointer;
+    box-shadow: none;
+    border-style: none;
+    position: absolute;
+    left: 12px;
+    top:245px;
+}
+.side-subscribe-btn:hover{
+    background-color: black;
+}
+.side-search-btn:hover{
+    background-color: black;
+}
+
+.side-subscribe-head{
+    color: orange;
+    font-size: 16px;
+    font-weight: 400;
+    word-spacing: 0px;
+    margin-bottom: 8px;
+}
+.side-subscribebox{
+    margin-top: 7px;
+    position: absolute;
+    left: 12px;
+    top:200px;
+    width: 90%;
+    height: 31px;
+    border: 1px solid rgb(185, 185, 185);
+    border-radius: 5px;
+    padding: 2px 4px 2px 12px;
+    outline: 0;
+    background-color: white;
+    color: black;
+    font-weight: 500;
+    font-size:10px ;
+}
+.side-subscibe-content{
+    line-height: 18px;
+    font-size: 12.6px;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+}
+
+.side-socials{
+    display: block;
+    margin-bottom: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    /* height: 100px; */
+    height: 150px;
+    padding: 14px;
+    border-radius: 3px;
+    font-size: 13px;
+    color: rgb(77, 76, 76);
+    background-color: white;
+    overflow: visible;
+}
+.socials-btn{
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: none;
+    border-style: none;
+    position: absolute;
+    border-radius: 5px;
+    height: 30px;
+    width: 120px;
+    margin: 10px;
+    
+}
+.side-socials-head{
+    color: orange;
+    font-size: 16px;
+    font-weight: 500;
+    word-spacing: 0px;
+    margin-bottom: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.side-tiktok{
+    
+    margin-bottom: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    /* height: 100px; */
+    height: 90px;
+    padding: 14px;
+    border-radius: 3px;
+    font-size: 13px;
+    color: rgb(77, 76, 76);
+    background-color: white;
+
+}
+.side-tiktok-head{
+    color: orange;
+    font-size: 16px;
+    font-weight: 500;
+    word-spacing: 0px;
+    margin-bottom: 8px;
+}
+.tiktok-btn{
+    background-color: rgb(212, 57, 82);
+    position: relative;
+    top: -8px;
+}
+
+.side-guide{
+    height: 60%;
+}

@@ -1,0 +1,112 @@
+.signupNow {
+    background-color: var(--e-global-color-text);
+    background-image: url(https://www.zonbase.com/blog/wp-content/uploads/2024/06/banner-blog.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; /* Ensure the background covers the container */
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    min-width: 1000px; /* Set a minimum width */
+    /* padding: 20px 0; Add padding to ensure some space at the top and bottom  */
+  }
+  .tryNow {
+    background-color: var(--e-global-color-text);
+    background-image: url(https://www.zonbase.com/blog/wp-content/uploads/2021/05/Footer-blank.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; /* Ensure the background covers the container */
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    /* min-width: 1000px; Set a minimum width */
+    /* padding: 20px 0; Add padding to ensure some space at the top and bottom  */
+  }
+  
+  .signup-outer-box {
+    background-color: #0A0A0A00;
+    background-image: url(https://www.zonbase.com/blog/wp-content/uploads/2024/06/banner-bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    opacity: 1;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .signup-inner-box {
+    max-width: 633px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    --widgets-spacing: 20px 20px;
+    flex: 1 1 auto;
+    margin: auto; /* Center the inner box */
+    padding: 50px 0; /* Add padding for spacing */
+    min-height: 50vh;
+  }
+  
+  .sign {
+    z-index: 4;
+    text-align: center;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    max-width: 600px;
+    width: calc(100% - 40px); /* Adjust width */
+    height: 250px; /* Ensure a minimum height */
+    padding: 30px;
+    
+  }
+  
+  .start-journey {
+    color: rgba(27, 27, 27, 0.795);
+    font-size: 36px;
+    margin-bottom: 15px;
+    
+  }
+  
+  .sign-desc {
+    padding: 2px;
+    font-size: 18px;
+    font-weight: 100;
+    color: rgb(70, 70, 70);
+    line-height: 24.7px;
+    margin-bottom: 15px;
+  }
+  
+  .signNow {
+    padding: 5px 20px;
+    border-radius: 4px;
+    color: white;
+    background-color: orange;
+    box-shadow: none;
+    border-style: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 145px;
+    height: 40px;
+   
+  }
+  
+  .signNow:hover {
+    background-color: black;
+  }
+  
+  @media (max-width: 1260px) {
+    .signupNow {
+      min-width: unset; /* Remove minimum width for smaller screens */
+      width: 100%;
+    }
+  
+    .signup-inner-box {
+      max-width: 90%; /* Adjust width for smaller screens */
+    }
+  }
+  

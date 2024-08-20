@@ -1,0 +1,25 @@
+.pagination{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    position: relative;
+    margin-left: auto;
+    margin-bottom: 30px;
+}
+.page-button{
+    height: 35px;
+    width: 30px;
+    margin-right: 5px;
+    background-color: white;
+    color: black;
+    border: 1px solid rgb(189, 187, 187);
+    cursor: pointer;
+}
+.active{
+    background-color: orange;
+    color: white;
+}
+.page-button:hover{
+    background-color: orange;
+    color: white;
+}

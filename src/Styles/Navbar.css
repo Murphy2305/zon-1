@@ -1,0 +1,158 @@
+/* Set margin and padding to zero for body */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Ensure spacing between elements */
+    align-items: center; /* Align items vertically */
+    margin: 0 auto; /* Center the navbar */
+    padding: 20px; /* Add padding around the navbar */
+    background-color: white; /* Background color for visibility */
+    position: relative; /* Keep relative positioning for absolute elements */
+    height: 30px;
+}
+
+.nav-first, .nav-list, .nav-right {
+    display: flex;
+    align-items: center;
+}
+
+.nav-first {
+    display: flex;
+    align-items: center;
+    flex-grow: 0; /* Prevent growing */
+    flex-shrink: 0; /* Prevent shrinking */
+    flex-basis: auto; /* Adjust to content size */
+    margin-right: 10px; /* Reduced margin to minimize spacing */
+    margin-left: auto;
+}
+
+.navbar-logo {
+    padding: 1px;
+    height: 28px;
+    margin-right: 10px; /* Space between logo and text */
+    flex-shrink: 1; /* Allow the logo to shrink */
+    margin-bottom: 2px;
+    margin-left: -290px; /* Adjust logo position */
+}
+
+.navbar-challenge {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 500;
+    margin-right: 20px; /* Reduced margin to decrease gap */
+}
+
+.navbar-phone {
+    width: 25px;
+    height: 25px;
+    padding: 3px;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 10px; /* Adjusted gap for reduced space between nav items */
+    padding: 0;
+    position: relative;
+    left: 270px;
+}
+
+.nav-item {
+    display: inline-block;
+    cursor: pointer;
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px; /* Smaller padding for compact look */
+}
+
+.navbar-free {
+    padding: 5px 20px;
+    border-radius: 4px;
+    color: white;
+    background-color: orange;
+    box-shadow: none;
+    border-style: none;
+    margin-left: 20px; /* Reduced margin to decrease gap */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+    position: relative;
+    left: 270px;
+}
+
+.navbar-free:hover {
+    background-color: black;
+}
+
+.tocenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.toggle-button {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+    margin-left: 10px; /* Reduced margin to decrease the gap */
+    max-width: 40px; /* Set a maximum width */
+    flex-shrink: 1; /* Allow the toggle button to shrink */
+}
+
+@media (max-width: 1260px) {
+    .nav-list {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        width: 100%; /* Ensure it takes the width of the navbar */
+        background-color: white;
+        border: 1px solid #ccc;
+        padding: 0;
+        position: absolute;
+        top: 40px; /* Adjust based on your navbar height */
+        right: 0;
+        left: 0;
+        box-sizing: border-box; /* Ensure padding is included in the width */
+        z-index: 2000;
+        overflow: hidden; /* Hide overflow for smooth animation */
+        max-height: 0; /* Initially hidden */
+        transition: max-height 0.5s ease, padding 0.5s ease; /* Transition effect */
+    }
+
+    .nav-item {
+        margin-left: 0; /* Remove left margin for items in column layout */
+        padding: 10px 20px;
+        text-align: center;
+    }
+
+    .navbar-free {
+        width: 250px; /* Increase width of button */
+        margin-left: 0;
+        margin-right: 40px;
+    }
+
+    .navbar-challenge {
+        display: none; /* Hide .navbar-challenge */
+    }
+
+    .toggle-button {
+        display: block; /* Show toggle button */
+    }
+}
+
+/* Additional CSS for .show class */
+.nav-list.show {
+    max-height: 500px; /* Adjust based on the number of items */
+    padding: 10px 0; /* Ensure padding is visible */
+}

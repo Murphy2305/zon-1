@@ -1,0 +1,11 @@
+.social-btn{
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: none;
+    border-style: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 120px;
+    margin: 10px;
+}

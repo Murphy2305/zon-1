@@ -1,0 +1,83 @@
+/* Footer styling */
+.footing {
+    width: 100%;
+    background-color: rgba(31, 31, 31, 0.952);
+    color: white;
+    position: relative;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-left: 220px;
+    padding-right: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+}
+
+/* Left column styling */
+.leftcol {
+    position: relative;
+    left: 50px; /* Adjust left spacing */
+    width: 350px; /* Slightly reduced width */
+    margin-left: 19px;
+    padding-top: 0;
+}
+
+.leftcol-first {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the start of the flex container */
+}
+
+.foot-logo {
+    width: 150px; /* Reduced size */
+    height: 25px; /* Reduced size */
+    margin: 8px; /* Reduced margin */
+    margin-bottom: 3px;
+}
+
+.foot-flag {
+    width: 220px; /* Reduced size */
+    height: 18px; /* Reduced size */
+    margin: 8px; /* Reduced margin */
+    margin-bottom: 5px;
+}
+
+.leftcol-first-quote {
+    margin-bottom: 10px;
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+.leftcol-second {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5px;
+    margin-top: 45px;
+}
+
+.leftcol-second-needHelp {
+    margin-bottom: 10px;
+}
+
+.leftcol-second ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.leftcol-second ul li {
+    font-size: 12px;
+    flex: 1 1 calc(33.33% - 10px); /* Adjust the width to fit 3 items per row */
+    margin-bottom: 10px;
+}
+
+/* Right column styling */
+.right-col {
+    margin-right: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Ensure consistent space between blocks */
+}

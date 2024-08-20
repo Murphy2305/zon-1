@@ -1,0 +1,69 @@
+.link-block {
+    flex: 1 1 calc(23% - 15px); /* Adjust width to fit 4 blocks in a row with reduced gap */
+    box-sizing: border-box;
+    margin: 0; /* Remove margin to handle alignment with gap */
+    display: flex;
+    flex-direction: column;
+}
+
+.link-block-name {
+    font-size: 13px; /* Reduced font size */
+    font-weight: bold; /* Make the list name bold */
+    margin-bottom: 10px; /* Adjust margin for alignment with list items */
+    position: relative;
+}
+
+.link-block-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column; /* Arrange items in a column */
+}
+
+/* Responsive design adjustments */
+@media (max-width: 1200px) {
+    .link-block {
+        flex: 1 1 calc(33% - 15px); /* On medium screens, fit 3 blocks in a row */
+    }
+}
+
+@media (max-width: 768px) {
+    .link-block {
+        flex: 1 1 100%; /* On small screens, take up the full width */
+    }
+}
+
+.link-block-item {
+    font-size: 10px; /* Reduced font size */
+    margin-bottom: 8px; /* Reduced space between items */
+    position: relative;
+    display: inline-block;
+    text-align: left; /* Align text to the left */
+    /* width: 100%; */
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+
+}
+
+.link-block-item::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+    display: block;
+    width: 0; /* Initial width set to 0 */
+}
+
+.link-block-item:hover::before {
+    transform: scaleX(1);
+    width: 100%; /* Width set to 100% on hover */
+    transform-origin: bottom left;
+}

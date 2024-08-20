@@ -1,0 +1,13 @@
+
+.outer-container {
+    display: flex;
+    justify-content: center;  /* Center horizontally */
+    width: 100%;
+    max-width: 1200px;        /* Set a maximum width to keep within bounds */
+    margin: 20px auto;        /* Use 'auto' for horizontal centering */
+    gap: 50px;
+    flex-wrap: wrap;          /* Ensure wrapping for responsiveness */
+    margin-top: 30px;
+    padding: 0 20px;          /* Add padding for some spacing on small screens */
+    box-sizing: border-box;   /* Ensure padding doesn't affect the overall width */
+}
